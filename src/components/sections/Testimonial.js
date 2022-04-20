@@ -65,7 +65,7 @@ const Testimonial = ({
             time   ="(2021- Oct) - Now"
             />
             <CareerCard
-            company="Infini Solutinons Limited"
+            company="Infini Solutions Limited"
             career =""
             role   ="Frontend Developer"
             time   ="2021 (April -Nov)"

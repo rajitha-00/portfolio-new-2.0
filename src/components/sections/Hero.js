@@ -60,20 +60,24 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
-            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Landing template for <span className="text-color-primary">startups</span>
+            <h1 className="mt-0 mb-16 reveal-from-bottom " data-reveal-delay="200">
+              AYUBOWAN<br/> 
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
+                Welcome to my empire. I am a Sri Lankan web developer and a designer.
+                <br/> Just take a little time & look around.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
                     Get started
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
+                  <Button tag="a" color="dark" wideMobile href="https://github.com/rajitha-00/portfolio-new-2.0">
                     View on Github
+                    </Button>
+                    <Button tag="a" color="light" wideMobile href="https://gitlab.com/_rajitha00_">
+                    View on GitLab
                     </Button>
                 </ButtonGroup>
               </div>

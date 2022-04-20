@@ -1,7 +1,8 @@
 import React from 'react'
 import Image from '../elements/Image';
 import classNames from 'classnames';
-const ProjectCard =({
+
+const AboutCard=({
     imageFill,
     className,
     ...props
@@ -11,7 +12,7 @@ const ProjectCard =({
         <div className="split-item">
             <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                   {props.smallHeader}
+                    {props.smallHeader}
                 </div>
                 <h3 className="mt-0 mb-12">
                     {props.projectHeader}
@@ -27,14 +28,14 @@ const ProjectCard =({
             )}
             data-reveal-container=".split-item">
             <Image
-                src={require('./../../assets/images/features-split-image-01.png')}
+                src={require('./../../assets/images/leo.jpg')}
                 alt="Features split 01"
-                width={528}
-                height={396} />
+                width={600}
+                height={600} />
             </div>
         </div>
     </>
   )
 }
 
-export default ProjectCard;
+export default AboutCard

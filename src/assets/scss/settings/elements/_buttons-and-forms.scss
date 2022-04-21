@@ -9,7 +9,7 @@ $button-form--group-padding: 	12px;		// padding separating input from button in 
 $button--color: (
 	button-light: 		get-color(dark, 2),
 	button-dark: 		get-color(light, 1),
-	button-primary: 	get-color(light, 1),
+	button-primary: 	get-color(dark, 1),
 	button-secondary:	get-color(light, 1),
 	button-disabled: 	get-color(dark, 3)
 );

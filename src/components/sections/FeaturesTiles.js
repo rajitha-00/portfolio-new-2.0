@@ -5,6 +5,16 @@ import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 import TechCard from '../reusable/TechCard';
 
+import pngreact from '../../assets/images/pngreact.png';
+import next from '../../assets/images/next.png';
+import three from '../../assets/images/three.jpeg';
+import firebace from '../../assets/images/firebace.png';
+import mui from '../../assets/images/mui.png';
+import tailwind from '../../assets/images/tailwind.png';
+import php from '../../assets/images/php.png';
+import sql from '../../assets/images/sql.png';
+import java from '../../assets/images/java.jpg';
+
 const propTypes = {
   ...SectionTilesProps.types
 }
@@ -60,57 +70,79 @@ const FeaturesTiles = ({
           <div className={tilesClasses}>
 
             <TechCard
+            path = {pngreact}
             tech="React.js"
             techDis="bla bla bla"
             exp="Expert"
+            xp="90"
             />
 
             <TechCard
+            path = {next}
             tech="Next.js"
             techDis="bla bla bla"
             exp="Expert"
+            xp="90"
             />
 
             <TechCard
+            path = {three}
             tech="Three.js"
             techDis="bla bla bla"
             exp="Expert"
+            xp="25"
+            color="#F08A5D"
             />
 
             <TechCard
-            tech="Firebace"
+             path = {firebace}
+            tech="Firebase"
             techDis="bla bla bla"
             exp="Expert"
+            xp="25"
+            color="#F08A5D"
             />
 
             <TechCard
+             path = {mui}
             tech="Material-UI"
             techDis="bla bla bla"
             exp="Expert"
+            xp="90"
             />
 
             <TechCard
+             path = {tailwind}
             tech="Tailwind CSS"
             techDis="bla bla bla"
             exp="Expert"
+            xp="50"
+            color="#14FFEC"
             />
 
             <TechCard
+             path = {php}
             tech="PHP"
             techDis="bla bla bla"
             exp="Expert"
+            xp="90"
             />
 
             <TechCard
+             path = {sql}
             tech="MySQL & MS SQL"
             techDis="bla bla bla"
             exp="Expert"
+            xp="90"
             />
 
             <TechCard
+             path = {java}
             tech="JAVA"
             techDis="bla bla bla"
             exp="Expert"
+            xp="30"
+            color="#F08A5D"
             />
 
           </div>

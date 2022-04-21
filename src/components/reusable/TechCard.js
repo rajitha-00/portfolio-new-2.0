@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from '../elements/Image';
 import classNames from 'classnames';
-
+import { Line } from 'rc-progress';
 
 const TechCard =({
 className,
@@ -21,9 +21,9 @@ className,
         <div className="features-tiles-item-header">
             <div className="features-tiles-item-image mb-16">
             <Image
-                src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                src={props.path}
                 alt="Features tile icon 01"
-                width={64}
+                width={70}
                 height={64} />
             </div>
         </div>
@@ -36,7 +36,9 @@ className,
             </p>
             <p className="m-2 text-sm">
                 Experience Level : <b> {props.exp}</b>
+
             </p>
+            <Line percent={props.xp} strokeWidth="3"   width={200} strokeColor={props.color} />
         </div>
         </div>
     </div>

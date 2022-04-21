@@ -19,6 +19,9 @@ const ProjectCard =({
                 <p className="m-0">
                     {props.projectDescription}
                 </p>
+                <p className="m-0 text-color-primary">
+                    {props.techs}
+                </p>
             </div>
             <div className={
             classNames(
@@ -27,9 +30,9 @@ const ProjectCard =({
             )}
             data-reveal-container=".split-item">
             <Image
-                src={require('./../../assets/images/features-split-image-01.png')}
+                src={props.src}
                 alt="Features split 01"
-                width={528}
+                width={600}
                 height={396} />
             </div>
         </div>

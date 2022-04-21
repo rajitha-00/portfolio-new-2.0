@@ -60,13 +60,23 @@ const Testimonial = ({
           <div className={tilesClasses}>
             <CareerCard
             company="HCL Technologies Sri-Lanka"
-            career =""
+            career ="I'm thrilled to share that I've been hired as a Junior Analyst at HCL 
+            Technologies. I'll be assisting the IT Infrastructure team, and I'm looking 
+            forward to learning and growing in this position. Because the IT sector is 
+            always changing, I'd like to get some infrastructure experience for my 
+            future career."
             role   ="Junior Analyst"
             time   ="(2021- Oct) - Now"
             />
             <CareerCard
             company="Infini Solutions Limited"
-            career =""
+            career ="I'm excited to share that after three months as an intern at Infini Solutions 
+            Limited, I was offered and accepted a part-time position as a Frontend 
+            Developer. I'd want to express my gratitude to the Infini team for the 
+            training and preparation that lead to this chance, as well as their 
+            unwavering support throughout the process. They trained and 
+            encouraged me to be a developer even though I had no knowledge of 
+            react.js or git ideas."
             role   ="Frontend Developer"
             time   ="2021 (April -Nov)"
             />

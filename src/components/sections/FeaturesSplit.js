@@ -5,6 +5,12 @@ import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 import ProjectCard from '../reusable/ProjectCard';
 
+import Infini from '../../assets/images/Infini.JPG';
+import Turis from '../../assets/images/Turis.JPG';
+import IrisHome from '../../assets/images/IrisHome.JPG';
+import AMS from '../../assets/images/AMS.JPG';
+
+import RuhunuFurniture from '../../assets/images/RuhunuFurniture.JPG';
 const propTypes = {
   ...SectionSplitProps.types
 }
@@ -65,21 +71,30 @@ const FeaturesSplit = ({
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={splitClasses}>
             <ProjectCard
+              src = {Infini}
               smallHeader ="New Website of InfiniSolution"
               projectHeader="InfiniSolution.lk"
               projectDescription="I am really exited to announce that this was my final main project at the InfiniSolutions. They gave me the opertuinity to build the main website as the results of my 6 months of career success."
             />
             <ProjectCard
+              src = {RuhunuFurniture}
               smallHeader ="Ruhunu furniture Website"
               projectHeader="Ruhunu Furniture"
               projectDescription="This was my very first Tailwind CSS project & I have guided by Dumidu Rajakaruna (COO) & also Thushara (Developer).  "
             />
-             <ProjectCard
+            <ProjectCard
+              src = {Turis}
               smallHeader ="Virtual Teaching Platform"
               projectHeader="Infini TURIS"
               projectDescription="This was my second project with InfiniSolution. This platform not yet launched. This was a key point to me because I had never work before with AdobeXD. So that case I have learned about adobe XD also. "
             />
+             <ProjectCard
+              smallHeader ="Virtual clothing store"
+              projectHeader="BAUHINIA"
+              projectDescription="This was my second project with InfiniSolution. This platform not yet launched. This was a key point to me because I had never work before with AdobeXD. So that case I have learned about adobe XD also. "
+            />
             <ProjectCard
+              src = {AMS}
               smallHeader ="Attendance Management System"
               projectHeader="AMS Web App"
               projectDescription="I am really glad to tell you. This was my first react core-ui project. It was launched and very successful. This was also guided by Dumidu Rajakaruna."
@@ -96,6 +111,7 @@ const FeaturesSplit = ({
             />
 
             <ProjectCard
+              src = {IrisHome}
               smallHeader ="Virtual Learning Platform"
               projectHeader="Infini IRIS"
               projectDescription="This was also part of TURIS ,Meet CMS Project. I have learned so many CSS patterns & react component patterns while building these three projects. "

@@ -5,6 +5,7 @@ import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
+import Typist from 'react-typist';
 
 const propTypes = {
   ...SectionProps.types
@@ -60,13 +61,21 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
-            <h1 className="mt-0 mb-16 reveal-from-bottom " data-reveal-delay="200">
-              AYUBOWAN<br/> 
-            </h1>
+            <div className="imgText1">
+              <h1 className="mt-0 mb-16 reveal-from-bottom " data-reveal-delay="200">
+                AYUBOWAN<br/> 
+              </h1>
+            </div>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Welcome to my empire. I am a Sri Lankan web developer and a designer.
-                <br/> Just take a little time & look around.
+                  Welcome to my empire.<br/>
+                <Typist>
+
+                  <Typist.Delay ms={300} />
+                   I am a Sri Lankan web developer   
+                   <Typist.Backspace count={9} delay={200} /> developer & designer.
+                  <br/> Just take a little time & look around.
+                </Typist>
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>

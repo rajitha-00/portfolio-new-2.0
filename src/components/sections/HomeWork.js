@@ -64,10 +64,13 @@ const HomeWork =({
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={splitClasses}>
-            <h1  data-reveal-delay="200">
-              Let's Start Work together<br/> 
-            </h1>
-           
+            <div className="imgText" data-reveal-delay="200">
+
+              <h1 className="imgTextbg" >
+                Let's Start <br/> Work together 
+              </h1>
+            
+            </div>
 
           </div>
         </div>

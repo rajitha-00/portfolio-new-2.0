@@ -72,7 +72,7 @@ const FeaturesTiles = ({
             <TechCard
             path = {pngreact}
             tech="React.js"
-            techDis="bla bla bla"
+            techDis="15"
             exp="Expert"
             xp="90"
             />
@@ -80,7 +80,7 @@ const FeaturesTiles = ({
             <TechCard
             path = {next}
             tech="Next.js"
-            techDis="bla bla bla"
+            techDis="5"
             exp="Expert"
             xp="90"
             />
@@ -88,8 +88,8 @@ const FeaturesTiles = ({
             <TechCard
             path = {three}
             tech="Three.js"
-            techDis="bla bla bla"
-            exp="Expert"
+            techDis="1"
+            exp="Rookie"
             xp="25"
             color="#F08A5D"
             />
@@ -97,8 +97,8 @@ const FeaturesTiles = ({
             <TechCard
              path = {firebace}
             tech="Firebase"
-            techDis="bla bla bla"
-            exp="Expert"
+            techDis="2"
+            exp="Rookie"
             xp="25"
             color="#F08A5D"
             />
@@ -106,7 +106,7 @@ const FeaturesTiles = ({
             <TechCard
              path = {mui}
             tech="Material-UI"
-            techDis="bla bla bla"
+            techDis="13"
             exp="Expert"
             xp="90"
             />
@@ -114,8 +114,8 @@ const FeaturesTiles = ({
             <TechCard
              path = {tailwind}
             tech="Tailwind CSS"
-            techDis="bla bla bla"
-            exp="Expert"
+            techDis="2"
+            exp="Average"
             xp="50"
             color="#14FFEC"
             />
@@ -123,7 +123,7 @@ const FeaturesTiles = ({
             <TechCard
              path = {php}
             tech="PHP"
-            techDis="bla bla bla"
+            techDis="3"
             exp="Expert"
             xp="90"
             />
@@ -131,7 +131,7 @@ const FeaturesTiles = ({
             <TechCard
              path = {sql}
             tech="MySQL & MS SQL"
-            techDis="bla bla bla"
+            techDis="7"
             exp="Expert"
             xp="90"
             />
@@ -139,8 +139,8 @@ const FeaturesTiles = ({
             <TechCard
              path = {java}
             tech="JAVA"
-            techDis="bla bla bla"
-            exp="Expert"
+            techDis="3"
+            exp="Rookie"
             xp="30"
             color="#F08A5D"
             />

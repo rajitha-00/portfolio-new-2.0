@@ -24,7 +24,8 @@ className,
                 src={props.path}
                 alt="Features tile icon 01"
                 width={70}
-                height={64} />
+                height={64}
+                 />
             </div>
         </div>
         <div className="features-tiles-item-content">
@@ -32,7 +33,7 @@ className,
                 {props.tech}
             </h4>
             <p className="m-0 text-sm">
-                {props.techDis}
+            Total Projects  :  {props.techDis}
             </p>
             <p className="m-2 text-sm">
                 Experience Level : <b> {props.exp}</b>

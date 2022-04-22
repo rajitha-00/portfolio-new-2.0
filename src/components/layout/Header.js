@@ -123,7 +123,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Contact Me</Link>
+                        <a href="https://mail.google.com/mail/u/0/#inbox" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Contact Me</a>
                       </li>
                     </ul>}
                 </div>

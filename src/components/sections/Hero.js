@@ -79,8 +79,8 @@ const Hero = ({
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
-                    Get started
+                  <Button tag="a" color="primary" wideMobile href="https://drive.google.com/file/d/1c7L2IjqGRDaUhYPJ5KhxHUPjkPJTj7DZ/view?usp=sharing">
+                    Get My Resume
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="https://github.com/rajitha-00/portfolio-new-2.0">
                     View on Github
@@ -92,7 +92,7 @@ const Hero = ({
               </div>
             </div>
           </div>
-          {/* <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
+          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
             <a
               data-video="https://player.vimeo.com/video/174002812"
               href="#0"
@@ -112,7 +112,7 @@ const Hero = ({
             show={videoModalActive}
             handleClose={closeModal}
             video="https://player.vimeo.com/video/174002812"
-            videoTag="iframe" /> */}
+            videoTag="iframe" />
         </div>
       </div>
     </section>

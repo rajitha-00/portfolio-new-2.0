@@ -42,6 +42,41 @@
         
     }
 }
+.working-env{
+    background:url(../../../images/env1.jpeg)   ;
+    background-size: cover;
+    min-height: 30vh;
+    border-radius: 10px;
+    div{
+        backdrop-filter: blur(3px);
+        align-items: center;
+        min-height: 50vh;
+        margin: 0;
+        margin-top: 4rem;
+        padding: 0;
+        background: rgba(0,0,0,0.5);
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        &:hover{
+            backdrop-filter: blur(10px);
+            transition: ease-in 0.5s;
+        }
+
+        p{
+            padding-top: 30px;
+            color: #fff;
+            font-size: 30px;
+        }
+        ul,li{
+            list-style: none;
+            padding:10px;
+            margin: 0;
+            color: #fff;
+            text-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+        }
+    }
+}
 .section-header {
 	padding-bottom: $section-header--padding__mobile;
 

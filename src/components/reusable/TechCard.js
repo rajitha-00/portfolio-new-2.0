@@ -18,29 +18,32 @@ className,
     <>
      <div className="tiles-item reveal-from-bottom">
         <div className="tiles-item-inner">
-        <div className="features-tiles-item-header">
-            <div className="features-tiles-item-image mb-16">
-            <Image
-                src={props.path}
-                alt="Features tile icon 01"
-                width={70}
-                height={64}
-                 />
-            </div>
-        </div>
-        <div className="features-tiles-item-content">
-            <h4 className="mt-0 mb-8">
-                {props.tech}
-            </h4>
-            <p className="m-0 text-sm">
-            Total Projects  :  {props.techDis}
-            </p>
-            <p className="m-2 text-sm">
-                Experience Level : <b> {props.exp}</b>
+          <div className="tecCard">
 
-            </p>
-            <Line percent={props.xp} strokeWidth="3"   width={200} strokeColor={props.color} />
-        </div>
+          <div className="features-tiles-item-header">
+              <div className="features-tiles-item-image mb-16">
+              <Image
+                  src={props.path}
+                  alt="Features tile icon 01"
+                  width={70}
+                  height={64}
+                  />
+              </div>
+          </div>
+          <div className="features-tiles-item-content">
+              <h4 className="mt-0 mb-8">
+                  {props.tech}
+              </h4>
+              <p className="m-0 text-sm">
+              Total Projects  :  {props.techDis}
+              </p>
+              <p className="m-2 text-sm">
+                  Experience Level : <b> {props.exp}</b>
+
+              </p>
+              <Line percent={props.xp} strokeWidth="3"   width={200} strokeColor={props.color} />
+          </div>
+          </div>
         </div>
     </div>
     </>

@@ -46,7 +46,7 @@ const Testimonial = ({
 
   const sectionHeader = {
     title: 'My Career Path',
-    paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.'
+    paragraph: ''
   };
 
   return (

@@ -5,6 +5,7 @@
 	margin-right: -($tiles-items--padding__mobile * 0.5);
 	margin-left: -($tiles-items--padding__mobile * 0.5);
 	margin-top: -($tiles-items--padding__mobile * 0.5);
+	
 
 	&:last-of-type {
 		margin-bottom: -($tiles-items--padding__mobile * 0.5);
@@ -33,13 +34,18 @@
 	max-width: $tiles-item--width;
 	box-sizing: content-box;
 	padding: $tiles-items--padding__mobile * 0.5;
-
 	* {
 		box-sizing: border-box;
 	}
 }
-
+.tecCard{
+	padding: 20px 10px;
+}
 .tiles-item-inner {
+	border-radius: 10px;
+	
+	box-shadow:  17px 17px 34px #272525,
+	-17px -17px 34px #312f2f;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;

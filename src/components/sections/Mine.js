@@ -54,7 +54,7 @@ const Mine =({
     
       const sectionHeader = {
         title: 'Hi, I am Rajitha Priyankara',
-        paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+        paragraph: ''
       };
     
   return (
@@ -70,20 +70,34 @@ const Mine =({
             <AboutCard
               smallHeader ="This is me"
               projectHeader=""
-              projectDescription="I am really exited to announce that this was my final main project at the InfiniSolutions. They gave me the opertuinity to build the main website as the results of my 6 months of career success."
+              projectDescription="I am proud Sri Lankan Web Developer.
+               I have been working in the industry for over 1 year. I have a passion for web development and I am always looking for new challenges to learn and grow.
+               My passion is to create beautiful and functional websites and web applications.
+               "
             />
 
             <Education/>
 
-           <div className="center-content">
+           <div className="center-content working-env">
+             <div>
+               
+              <p className="m-32 mb-32 text-center reveal-from-bottom" data-reveal-delay="400">
+                  Working Environment </p>
+
+                  <ul>
+                    <li>Laptop: HP notebook 15 (with ssd) </li>
+                    <li>Monitor: 27 Singer LED</li>
+                    <li>Connection: SLT Fiber</li>
+                    <li>Code Editor: VS code (#my fav)</li>
+                    <li>Extensions: #tabnine #CoPilot #prettier #gitGraph & other intellisense #</li>
+                  </ul>
+
+              {/* <Image
+                  src={require('./../../assets/images/env1.jpeg')}
+                  alt="Features split 01"
+              /> */}
+             </div>
             
-            <p className="m-32 mb-32 text-center reveal-from-bottom" data-reveal-delay="400">
-                Working Environment </p>
-           
-            <Image
-                src={require('./../../assets/images/env1.jpeg')}
-                alt="Features split 01"
-            />
          
            </div>
 

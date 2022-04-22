@@ -19,10 +19,13 @@ const FooterNav = ({
     >
       <ul className="list-reset">
         <li>
-          <Link to="#0">Contact</Link>
+          <a href="https://mail.google.com/mail/u/0/#inbox">Contact</a>
         </li>
         <li>
-          <Link to="#0">About Me</Link>
+          <Link to="/projects">Projects</Link>
+        </li>
+        <li>
+          <Link to="/about">About Me</Link>
         </li>
        
       </ul>

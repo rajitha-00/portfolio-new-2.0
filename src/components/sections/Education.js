@@ -61,7 +61,10 @@ const Education =({
             <div className={tilesClasses}>
                 <CareerCard
                 company="Pearson BTEC HND"
-                career =""
+                career ="I have completed my HND in Software Engineering.I am hoping a average good results with completed modules. 
+                I will receive my certificate soon. Because It has ended in March 2022.
+                I completed Ethical Hacking Certification Event while studying Esoft Metro Campus.
+                "
                 role   ="Software Engineering"
                 time   ="2020 - 2022"
                 
@@ -69,7 +72,8 @@ const Education =({
         
                 <CareerCard
                 company="GCE A Level"
-                career =""
+                career ="I was studied at Kingswood College, Kandy one of the best school in Sri Lanka. My A/L result was very good. 
+                I have completed my A/L in Mathematics 'C' , Physics 'S' & Chemistry 'S. And I did so many things in my school life."
                 role   ="Physical Science"
                 time   ="2017 - 2019"
                 
@@ -77,7 +81,8 @@ const Education =({
         
                 <CareerCard
                 company="GCE O Level"
-                career =""
+                career ="I did my O/L very well. I got 8As & B for My O/L.
+                ____________ ___ I was co-editor of Kingswood Astronomical Society. Former Taekwondo Player at school team. I was a soccer player at 11st team."
                 role   =""
                 time   ="2016"
                 

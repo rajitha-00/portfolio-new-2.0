@@ -56,7 +56,7 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: 'Technologies & Frameworks',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    paragraph: 'Most of the technologies  I am still exploring, These are the techs that I have ever used. I am also looking for a new Learning materials.'
   };
 
   return (

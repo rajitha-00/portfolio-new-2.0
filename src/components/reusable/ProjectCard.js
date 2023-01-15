@@ -19,7 +19,10 @@ const ProjectCard =({
                 <p className="m-0">
                     {props.projectDescription}
                 </p>
+              
+                <br/>
                 <a href={props.link}>Visit</a>
+                <br/>
                 <p className="m-0 text-color-secondary">
                     {props.techs}
                 </p>

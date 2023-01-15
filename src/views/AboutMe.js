@@ -6,6 +6,7 @@ import Testimonial from '../components/sections/Testimonial';
 const AboutMe =()=> {
   return (
     <>
+{/* eslint-disable-next-line  */}
 <Header/>
 <Mine invertMobile topDivider imageFill className="illustration-section-02" />
 <Testimonial topDivider />

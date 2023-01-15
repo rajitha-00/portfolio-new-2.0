@@ -68,7 +68,7 @@ const Hero = ({
             </div>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                  Welcome to my empire.<br/>
+                  Welcome<br/>
                 <Typist>
 
                   <Typist.Delay ms={300} />
@@ -83,7 +83,7 @@ const Hero = ({
                     Get My Resume
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="https://github.com/rajitha-00/portfolio-new-2.0">
-                    View on Github
+                    View on GitHub
                     </Button>
                     <Button tag="a" color="light" wideMobile href="https://gitlab.com/_rajitha00_">
                     View on GitLab

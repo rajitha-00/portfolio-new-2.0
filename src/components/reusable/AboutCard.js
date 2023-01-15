@@ -28,7 +28,7 @@ const AboutCard=({
             )}
             data-reveal-container=".split-item">
             <Image
-                src={require('./../../assets/images/leo.jpg')}
+                src={require('../../assets/images/leo.jpg')}
                 alt="Features split 01"
                 width={600}
                 height={600} />

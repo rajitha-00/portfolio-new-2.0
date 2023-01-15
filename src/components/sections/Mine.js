@@ -70,14 +70,15 @@ const Mine =({
             <AboutCard
               smallHeader ="This is me"
               projectHeader=""
-              projectDescription="I am proud Sri Lankan Web Developer.
-               I have been working in the industry for over 1 year. I have a passion for web development and I am always looking for new challenges to learn and grow.
-               My passion is to create beautiful and functional websites and web applications.
+              projectDescription="I am final year SE student from staffordshire university.
+               I am really into programming that's why I want to be a Software Engineer. I am currently working in HCLTech as a Junior Analyst for 1 year and 
+               3 months. Also, I have 6 months have experinece in InfiniSolution as intern fontend developer.
+
                "
             />
 
             <Education/>
-
+{/* 
            <div className="center-content working-env">
              <div>
                
@@ -85,21 +86,22 @@ const Mine =({
                   Working Environment </p>
 
                   <ul>
-                    <li>Laptop: HP notebook 15 (with ssd) </li>
-                    <li>Monitor: 27 Singer LED</li>
+                    <li>Laptop: ASUS Vivobook </li>
+                    <li>Pc: Ryzen 5 3600, 16GB 3200MHz, 512GB SSD</li>
+                    <li>Monitor: HP 22f IPS </li>
                     <li>Connection: SLT Fiber</li>
                     <li>Code Editor: VS code (#my fav)</li>
                     <li>Extensions: #tabnine #CoPilot #prettier #gitGraph & other intellisense #</li>
                   </ul>
 
-              {/* <Image
+              <Image
                   src={require('./../../assets/images/env1.jpeg')}
                   alt="Features split 01"
-              /> */}
+              />
              </div>
             
          
-           </div>
+           </div> */}
 
           </div>
             </div>

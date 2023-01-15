@@ -46,7 +46,7 @@ const Education =({
     
       const sectionHeader = {
         title: 'Education',
-        paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.'
+        paragraph: 'Final year SE student from Staffordshire University'
       };
 
   return (
@@ -60,9 +60,16 @@ const Education =({
             <SectionHeader data={sectionHeader} className="center-content" />
             <div className={tilesClasses}>
                 <CareerCard
+                    company="BSc(Hons) Computer Scinence"
+                    career ="I started my final year in APIIT Kandy Campus, Enrolled in last November. I hope to perfome and get good results. 
+                    "
+                    role   ="Software Engineering"
+                    time   ="2023 - 2024"
+                
+                />
+                <CareerCard
                 company="Pearson BTEC HND"
-                career ="I have completed my HND in Software Engineering.I am hoping a average good results with completed modules. 
-                I will receive my certificate soon. Because It has ended in March 2022.
+                career ="I have completed my HND in Software Engineering.I have overall meriet after completeing successful 2 years.
                 I completed Ethical Hacking Certification Event while studying Esoft Metro Campus.
                 "
                 role   ="Software Engineering"
@@ -82,7 +89,7 @@ const Education =({
                 <CareerCard
                 company="GCE O Level"
                 career ="I did my O/L very well. I got 8As & B for My O/L.
-                ____________ ___ I was co-editor of Kingswood Astronomical Society. Former Taekwondo Player at school team. I was a soccer player at 11st team."
+                _____________ I was co-editor of Kingswood Astronomical Society. Former Taekwondo Player at school team. I was a soccer player at 11st team."
                 role   =""
                 time   ="2016"
                 

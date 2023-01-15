@@ -60,7 +60,7 @@ const FeaturesSplit = ({
 
   const sectionHeader = {
     title: 'My Projects',
-    paragraph: 'These are some completed of the projects I have worked on. In future I will be adding more projects to this section.'
+    paragraph: 'These are some completed projects that I have worked on. In future I will be adding more projects to this section.'
   };
 
   return (

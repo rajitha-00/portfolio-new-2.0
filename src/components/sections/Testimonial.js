@@ -45,7 +45,7 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'My Career Path',
+    title: 'Career & Experince ',
     paragraph: ''
   };
 
@@ -60,23 +60,21 @@ const Testimonial = ({
           <div className={tilesClasses}>
             <CareerCard
             company="HCL Technologies Sri-Lanka"
-            career ="I'm thrilled to share that I've been hired as a Junior Analyst at HCL 
-            Technologies. I'll be assisting the IT Infrastructure team, and I'm looking 
-            forward to learning and growing in this position. Because the IT sector is 
-            always changing, I'd like to get some infrastructure experience for my 
-            future career."
+            career ="One year and 4 months experienced System and Windows Administrator 
+            with knowledge of active directory, Vulnerability support assistance, 
+            Patching and managing large scale enterprise systems. Working experience 
+            with global clients and team members. Strong knowledge of Microsoft 
+            software trouble shooting and fixing. "
             role   ="Junior Analyst"
             time   ="(2021- Oct) - Now"
             />
             <CareerCard
             company="Infini Solutions Limited"
-            career ="I'm excited to share that after three months as an intern at Infini Solutions 
-            Limited, I was offered and accepted a part-time position as a Frontend 
-            Developer. I'd want to express my gratitude to the Infini team for the 
-            training and preparation that lead to this chance, as well as their 
-            unwavering support throughout the process. They trained and 
-            encouraged me to be a developer even though I had no knowledge of 
-            react.js or git ideas."
+            career ="I have six-month experience as intern frontend developer with the knowledge 
+            of UI/UX and frontend web-development. I worked on couple of projects with 
+            react.js and next.js. I build user friendly and mobile friendly web applications 
+            during this intern period with agile environment. Also got the experience of 
+            troubleshooting CSS and how to fix it"
             role   ="Frontend Developer"
             time   ="2021 (April -Nov)"
             />

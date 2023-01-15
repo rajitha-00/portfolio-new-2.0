@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.6c8e4272.css",
+    "main.js": "/Portfolio/static/js/main.3730efbd.js",
+    "static/media/leo.jpg": "/Portfolio/static/media/leo.785137625a51620b6f51.jpg",
+    "static/media/txt2bg.jpg": "/Portfolio/static/media/txt2bg.dec795ee282b4e4413cb.jpg",
+    "static/media/txtbg2.jpg": "/Portfolio/static/media/txtbg2.adebe833c28ccbff4ff0.jpg",
+    "static/media/php.png": "/Portfolio/static/media/php.502c1a901665a0453b5c.png",
+    "static/media/herobg.png": "/Portfolio/static/media/herobg.7a465a5280e8d39487d2.png",
+    "static/media/RuhunuFurniture.JPG": "/Portfolio/static/media/RuhunuFurniture.4cfc7f133f98f24ebdc0.JPG",
+    "static/media/video-placeholder.jpg": "/Portfolio/static/media/video-placeholder.ca40af5667c998a65125.jpg",
+    "static/media/IrisHome.JPG": "/Portfolio/static/media/IrisHome.3224ca75e0dc7aa34420.JPG",
+    "static/media/AMS.JPG": "/Portfolio/static/media/AMS.69b5bc5649e0e1d570da.JPG",
+    "static/media/Infini.JPG": "/Portfolio/static/media/Infini.caa5e71305b8b37c5dcf.JPG",
+    "static/media/Turis.JPG": "/Portfolio/static/media/Turis.ce172c2fefbd4f330b31.JPG",
+    "static/media/bauhinia.JPG": "/Portfolio/static/media/bauhinia.2ebdbc77ace83c8e4f6e.JPG",
+    "static/media/Turis2.JPG": "/Portfolio/static/media/Turis2.4f6e0c5d13fd21246881.JPG",
+    "static/media/sql.png": "/Portfolio/static/media/sql.de3363c107781dfe0d0a.png",
+    "static/media/mui.png": "/Portfolio/static/media/mui.97f71d1584f6cf9bb670.png",
+    "static/media/env1.jpeg": "/Portfolio/static/media/env1.4302293beddcf2d5c41e.jpeg",
+    "static/media/tailwind.png": "/Portfolio/static/media/tailwind.283a542d2ad3974fc278.png",
+    "static/media/logo.png": "/Portfolio/static/media/logo.350817b205e263414c4a.png",
+    "static/media/illustration-section-01.svg": "/Portfolio/static/media/illustration-section-01.980998916c8e9369ffab.svg",
+    "static/media/illustration-section-02.svg": "/Portfolio/static/media/illustration-section-02.f11c21a9745d2454b81c.svg",
+    "static/media/java.jpg": "/Portfolio/static/media/java.a8fb167d0229c478c514.jpg",
+    "static/media/three.jpeg": "/Portfolio/static/media/three.ac224be0d89bb909275b.jpeg",
+    "static/media/pngreact.png": "/Portfolio/static/media/pngreact.ef20e673b9282f8f30fd.png",
+    "static/media/cta-illustration.svg": "/Portfolio/static/media/cta-illustration.79633e4594ec76a3f01f.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.6c8e4272.css.map": "/Portfolio/static/css/main.6c8e4272.css.map",
+    "main.3730efbd.js.map": "/Portfolio/static/js/main.3730efbd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c8e4272.css",
+    "static/js/main.3730efbd.js"
+  ]
+}

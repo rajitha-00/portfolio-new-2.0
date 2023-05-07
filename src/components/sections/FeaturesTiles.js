@@ -72,7 +72,7 @@ const FeaturesTiles = ({
             <TechCard
             path = {pngreact}
             tech="React.js"
-            techDis="15"
+            techDis="25"
             exp="Expert"
             xp="90"
             />
@@ -83,6 +83,15 @@ const FeaturesTiles = ({
             techDis="5"
             exp="Expert"
             xp="90"
+            />
+            
+            <TechCard
+            path = {three}
+            tech="Vue.js"
+            techDis="4"
+            exp="Rookie"
+            xp="40"
+            color="#F08A5D"
             />
 
             <TechCard
@@ -97,16 +106,16 @@ const FeaturesTiles = ({
             <TechCard
              path = {firebace}
             tech="Firebase"
-            techDis="2"
+            techDis="6"
             exp="Rookie"
-            xp="25"
+            xp="50"
             color="#F08A5D"
             />
 
             <TechCard
              path = {mui}
             tech="Material-UI"
-            techDis="13"
+            techDis="18"
             exp="Expert"
             xp="90"
             />
@@ -114,16 +123,16 @@ const FeaturesTiles = ({
             <TechCard
              path = {tailwind}
             tech="Tailwind CSS"
-            techDis="2"
+            techDis="6"
             exp="Average"
             xp="50"
             color="#14FFEC"
             />
 
             <TechCard
-             path = {php}
+            path = {php}
             tech="PHP"
-            techDis="3"
+            techDis="6"
             exp="Expert"
             xp="90"
             />
@@ -131,7 +140,7 @@ const FeaturesTiles = ({
             <TechCard
              path = {sql}
             tech="MySQL & MS SQL"
-            techDis="7"
+            techDis="10"
             exp="Expert"
             xp="90"
             />
@@ -139,7 +148,7 @@ const FeaturesTiles = ({
             <TechCard
              path = {java}
             tech="JAVA"
-            techDis="3"
+            techDis="5"
             exp="Rookie"
             xp="30"
             color="#F08A5D"
